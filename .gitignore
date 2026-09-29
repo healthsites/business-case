@@ -1,0 +1,36 @@
+# Raw and sensitive data (never commit)
+data/raw/
+data/scraped/
+*.sqlite
+*.gpkg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Environment / secrets (API keys go here, not in notebooks)
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build and logs
+*.log
+output/
+
+# Other
+.obsidian

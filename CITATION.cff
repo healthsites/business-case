@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use or build on this work, please cite it as below."
+title: "The Business Case for Accurate Baseline Health Facility Data"
+abstract: >-
+  An evidence-based estimate of the cost of inaccurate health facility data,
+  built by comparing an official facility list with the healthsites.io /
+  OpenStreetMap dataset and applying published survey and verification costs.
+type: software
+license: CC-BY-4.0
+repository-code: "https://github.com/healthsites/business-case"
+authors:
+  - family-names: Herringer
+    given-names: Mark
+    orcid: "https://orcid.org/0000-0002-0605-8348"
+    affiliation: "Open Healthsite Consulting / healthsites.io"
+  # Add each student team member once the team is confirmed:
+  # - family-names:
+  #   given-names:
+  #   affiliation: "University of Amsterdam"
+keywords:
+  - health facilities
+  - master facility list
+  - data quality
+  - OpenStreetMap
+  - healthsites.io
+  - digital public good
